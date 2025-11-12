@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/jeremy/Documents/_FALL_2025/week_14/smoothis-next-auth/src/components/AuthNav.jsx"],"sourcesContent":["\"use client\";\r\nimport { SignedIn, SignedOut, UserButton, SignInButton } from \"@clerk/nextjs\";\r\n\r\nexport default function AuthNav() {\r\n  return (\r\n    <nav className=\"flex justify-end p-4 border-b\">\r\n      <SignedOut>\r\n        <SignInButton />\r\n      </SignedOut>\r\n      <SignedIn>\r\n        <UserButton afterSignOutUrl=\"/\" />\r\n      </SignedIn>\r\n    </nav>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;;AACA;AAAA;AAAA;AADA;;;AAGe,SAAS;IACtB,qBACE,6LAAC;QAAI,WAAU;;0BACb,6LAAC,yLAAS;0BACR,cAAA,6LAAC,8LAAY;;;;;;;;;;0BAEf,6LAAC,wLAAQ;0BACP,cAAA,6LAAC,wLAAU;oBAAC,iBAAgB;;;;;;;;;;;;;;;;;AAIpC;KAXwB","debugId":null}}]
+}

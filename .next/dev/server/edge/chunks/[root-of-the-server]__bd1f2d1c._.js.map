@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 16, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/middleware.js"],"sourcesContent":["import { clerkMiddleware } from \"@clerk/nextjs/server\";\r\n\r\nexport default clerkMiddleware();\r\n\r\nexport const config = {\r\n  matcher: [\r\n    // Protect everything except Next internals, static files, and public auth routes\r\n    \"/((?!_next|.*\\\\..*|sign-in|sign-up|favicon.ico).*)\",\r\n  ],\r\n};\r\n"],"names":[],"mappings":";;;;;;AAAA;;uCAEe,IAAA,wMAAe;AAEvB,MAAM,SAAS;IACpB,SAAS;QACP,iFAAiF;QACjF;KACD;AACH"}}]
+}

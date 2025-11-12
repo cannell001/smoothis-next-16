@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 14, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/jeremy/Documents/_FALL_2025/week_14/smoothis-next-auth/src/app/sign-up/%5B%5B...sign-up%5D%5D/page.jsx"],"sourcesContent":["import { SignUp } from \"@clerk/nextjs\";\r\n\r\nexport default function Page() {\r\n  return (\r\n    <main style={{ padding: 24 }}>\r\n      <SignUp />\r\n    </main>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;;AAAA;;;AAEe,SAAS;IACtB,qBACE,8OAAC;QAAK,OAAO;YAAE,SAAS;QAAG;kBACzB,cAAA,8OAAC,gMAAM;;;;;;;;;;AAGb","debugId":null}}]
+}
